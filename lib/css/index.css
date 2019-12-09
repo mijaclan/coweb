@@ -1,0 +1,65 @@
+/*备用的样式结构css*/
+
+.daohan {
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*文字中看齐*/
+}
+
+#nav {
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    background-color: #09F;
+    margin: auto;
+    width: 700px;
+    float: center;
+}
+
+#nav li {
+    float: left;
+    padding: 0 5px;
+    /* text-align:center; 文字居中 */
+}
+
+#nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 0 6px;
+    /**/
+}
+
+
+/**/
+
+.first:hover {
+    display: block;
+    /*	 background-color: #0f0; */
+}
+
+a:hover {
+    background-color: hsla(188, 97%, 47%, 1.00);
+    /*鼠标事件的变化颜色*/
+}
+
+a:visted {
+    background-color: #AB0709;
+}
+
+#nav li:hover ul {
+    display: block;
+    background-color: hsla(33, 98%, 52%, 1.00);
+    /*下拉菜单的背景色*/
+}
+
+#nav ul {
+    position: absolute;
+    display: none;
+    /**/
+}
