@@ -3,6 +3,12 @@
 	width: 100%;
 	height: 10%;
 	background-image: url("../images/logo-1.png");
+	
+	
+}
+.sosh h3 a {
+	list-style: none;
+	text-decoration: none;
 }
 
 
