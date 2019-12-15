@@ -1,13 +1,1 @@
 /*这个css用来写主要的样式结构*/
-
-
-/*备案与声明*/
-
-#copyright {
-    text-align: center;
-    font: bold 10px sans-serif;
-    text-transform: uppercase;
-    color: rgb(15, 14, 14);
-    margin: 20px 0 60px;
-    text-shadow: 1px 1px 1px #fff;
-}
